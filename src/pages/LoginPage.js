@@ -46,7 +46,7 @@ export default function LoginPage() {
   return (
     <>
       <Helmet>
-        <title> Logowanie | Cantabo Manager </title>
+        <title> Logowanie | MailZen </title>
       </Helmet>
 
       <StyledRoot>
@@ -61,7 +61,7 @@ export default function LoginPage() {
         {mdUp && (
           <StyledSection>
             <Typography variant="h3" sx={{ px: 5, mt: 10, mb: 5 }}>
-              Witaj ponownie!
+              Witaj !
             </Typography>
             <img src="/assets/illustrations/illustration_login.png" alt="login" />
           </StyledSection>
@@ -70,12 +70,13 @@ export default function LoginPage() {
         <Container maxWidth="sm">
           <StyledContent>
             <Typography variant="h4" gutterBottom marginBottom={5}>
-              Logowanie Cantabo Manager
+              Logowanie MailZen
             </Typography>
 
             <LoginForm />
           </StyledContent>
         </Container>
+
       </StyledRoot>
     </>
   );
